@@ -1,0 +1,44 @@
+
+.part {
+    border-top: 2px solid var(--vermelho);
+    border-bottom: 2px solid var(--vermelho);
+    justify-content: flex-end;
+
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.part > img{
+    width: 20px;
+}
+
+.lista-fq {
+    gap: 40px;
+}
+
+.lista-fq > div > img {
+    margin-top: 50px;
+    width: 50vw;
+}
+
+.lista-fq > div {
+    justify-content: center;
+}
+
+.fq {
+    gap: 10px;
+}
+
+.fq > h3 {
+    color: var(--salmon);
+}
+
+.fq > p {
+    font-size: 1em;
+    color: var(--creme);
+}
+
+.cn {
+    gap: 20px;
+    align-items: center;
+}
